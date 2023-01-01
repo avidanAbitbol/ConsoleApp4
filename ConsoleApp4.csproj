@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="output\.vs\ProjectSettings.json" />
+    <Content Include="output\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\avida\source\repos\ConsoleApp4\.editorconfig" />
+    <None Include="ONNX.FastNeuralStyleTransfer-Demo.sln" />
+    <None Include="ONNX.FastNeuralStyleTransfer.csproj" />
+    <None Include="output\.vs\output\FileContentIndex\75338aee-1f0f-46c5-8b5c-f473aa3e3f34.vsidx" />
+    <None Include="output\.vs\output\FileContentIndex\read.lock" />
+    <None Include="output\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.13.1" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+    <PackageReference Include="SixLabors.ImageSharp.Web" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="output\.vs\output\FileContentIndex\merges\" />
+    <Folder Include="output\.vs\output\v17\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\avida\source\repos\ConsoleApp4\.editorconfig" />
+  </ItemGroup>
+
+</Project>
